@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57138" started-at="2018-11-22T09:27:12Z" finished-at="2018-11-22T09:28:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57138" started-at="2018-11-22T09:27:12Z" finished-at="2018-11-22T09:28:09Z">
+      <class name="com.DataDriven.test.Parameterizee">
+        <test-method status="PASS" signature="VerifyAndAddUser()[pri:0, instance:com.DataDriven.test.Parameterizee@2781e022]" name="VerifyAndAddUser" duration-ms="57112" started-at="2018-11-22T09:27:12Z" finished-at="2018-11-22T09:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAndAddUser -->
+      </class> <!-- com.DataDriven.test.Parameterizee -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

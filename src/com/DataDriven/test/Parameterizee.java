@@ -101,6 +101,28 @@ public class Parameterizee {
 			//Navigates and clicks the submit button
 			driver.findElement(By.cssSelector("button.btn:nth-child(2)")).click();
 			
+				//array to locate the user name on the web
+				int tr[]= new int [7];
+				System.out.println(userName);
+				
+				
+				//looping the names
+				for(int i=1; i<tr.length;i++ ) {
+					
+					tr[i]=i;
+					
+					String jk = driver.findElement(By.xpath("/html/body/table/tbody/tr["+tr[i]+"]/td[3]")).getText();
+					
+					
+				if(userName.contains(jk)) {
+					System.out.println("Username exist in the table");
+					break;
+					
+				}
+
+				}
+			  
+				System.out.println("User is successfully added to the table");
 			
 		
 	}

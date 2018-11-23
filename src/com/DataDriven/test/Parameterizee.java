@@ -101,12 +101,12 @@ public class Parameterizee {
 			//Navigates and clicks the submit button
 			driver.findElement(By.cssSelector("button.btn:nth-child(2)")).click();
 			
-				//array to locate the user name on the web
+				//array to locate the Username on the web
 				int tr[]= new int [7];
 				System.out.println(userName);
 				
 				
-				//looping the names
+				//looping the the unique names
 				for(int i=1; i<tr.length;i++ ) {
 					
 					tr[i]=i;
